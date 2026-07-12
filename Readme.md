@@ -57,8 +57,8 @@ services:
     container_name: windows
     environment:
       VERSION: "10"
-      USERNAME: ${WINDOWS_USERNAME}   # Usa un archivo .env para variables sensibles
-      PASSWORD: ${WINDOWS_PASSWORD}   # Usa un archivo .env para variables sensibles
+      USERNAME: "admin"   # Usa un archivo .env para variables sensibles
+      PASSWORD: "ZMCw486!75276"   # Usa un archivo .env para variables sensibles
       RAM_SIZE: "4G"
       CPU_CORES: "4"
     cap_add:
